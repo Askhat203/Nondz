@@ -1,0 +1,21 @@
+@import './section/header';
+@import './section/nondz';
+@import './section/het';
+@import './section/faq';
+@import'./section/get';
+@import'./section/pers';
+@import './section/footer';
+
+
+
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px;
+}

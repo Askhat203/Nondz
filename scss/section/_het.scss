@@ -1,0 +1,86 @@
+
+.het{
+    background: #f6a0a9;
+}
+.het__title{
+font-weight: 700;
+font-size: 40px;
+line-height: 175%;
+color: #4f2479;
+}
+.het__text{
+font-weight: 700;
+font-size: 20px;
+line-height: 225%;
+color: #4f2479;
+padding-bottom: 4%;
+}
+.het__bold{
+font-weight: 700;
+font-size: 24px;
+line-height: 225%;
+color: #4f2479;
+padding: 4%;
+}
+.het__yelow{
+    font-weight: 700;
+font-size: 19px;
+line-height: 126%;
+text-transform: uppercase;
+color: #4f2479;
+
+padding: 22px 22px 22px 22px;
+border: 2px solid #4f2479;
+background: #e1fd2c;
+}
+.het__img{
+    z-index: 1;
+    padding-top: 5%;
+width: 847px;
+height: 547px;
+}
+.het__content{
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.het__sub-content{
+
+    color: #16774a;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-right: 20%;
+    padding-left: 40%;
+}
+.het__video{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+
+@media(max-width: 1200px){
+    .het__img{
+    width: 70%;
+    height: 70%;
+    }
+}
+
+@media(max-width: 819px){
+    .het__img{
+    width: 60%;
+    height: 60%;
+    }
+}
+@media(max-width: 600px){
+    .het__img{
+    width: 50%;
+    height: 50%;
+    }
+}

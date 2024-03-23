@@ -1,0 +1,38 @@
+
+.header{
+    background: #16774a;
+}
+
+.header__yelow{
+padding: 13px 40px;
+background: #e1fd2c;
+border: 0;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+color: #16774a;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__burger{
+    display: none;
+    width: 40px;
+}
+.header__burger img{
+    width: 100%
+}
+
+
+
+@media(max-width:600px){
+    .header__yelow{
+        display: none;
+    }
+    .header__burger{
+        display: block;
+    }
+}

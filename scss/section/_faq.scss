@@ -1,0 +1,39 @@
+
+
+.faq{
+    padding-bottom: 250px;
+    background: #e1fd2c;
+    position: relative;
+}
+.faq__title{
+    margin-bottom: 5%;
+font-weight: 300;
+font-size: 159px;
+line-height: 98%;
+color: #4f2479;
+}
+.faq__content{
+    display: flex;
+    justify-content: center;
+}
+.faq__list{
+    list-style: none;
+    display: flex;
+    gap: 130px;
+    flex-direction: column;
+
+}
+.faq__items{
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+color: #4f2479;
+}
+
+
+.faq__items{
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid ;
+}

@@ -1,0 +1,77 @@
+
+.pers{
+    background: #4f2479;
+}
+
+.pers__title{
+font-weight: 400;
+font-size: 42px;
+line-height: 114%;
+text-transform: uppercase;
+color: #e1fd2c;
+padding-bottom: 5%;
+}
+.pers__text{
+font-weight: 400;
+font-size: 16px;
+line-height: 225%;
+color: #e1fd2c;
+}
+.pers__content{
+
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+.pers__list-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.pers__sub-title{
+font-weight: 400;
+font-size: 40px;
+line-height: 120%;
+text-transform: uppercase;
+color: #e1fd2c;
+padding-bottom: 5%;
+
+}
+
+.pers__img{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2% ;
+}
+
+.pers__items{
+font-weight: 400;
+font-size: 16px;
+line-height: 225%;
+color: #e1fd2c;
+}
+
+.pers__list{
+    list-style: none;
+}
+.pers__titles{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+
+
+@media(max-width: 1200px){
+    .pers__img{
+    width: 100%;
+
+    }
+
+}
